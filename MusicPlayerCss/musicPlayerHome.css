@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+:root {
+  --color: #faa700;
+  --color-light: #f5ede1;
+  --dark: #a7a7a7;
+  --dark: #8a8a8a;
+  --darker: #303030;
+  --sans-serif: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--sans-serif);
+  background: #eeeeee;
+}
+
+body {
+  background: #0a1a24;
+}
+
+main{
+  display: inline-block;
+  width:70%;
+  margin-top: 18vh;
+  margin-left: 14vh;
+  color: white;
+}
+
+aside{
+  display: inline-block;
+  width: 21%;
+  color: white;
+  text-align: center;
+}
+
+.song-img img{
+  height: 50vh;
+  width: 30%;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.song-img img:hover{
+    transform: scale(1.5); 
+}
