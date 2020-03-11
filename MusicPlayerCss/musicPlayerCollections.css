@@ -4,7 +4,7 @@
   --color-light: #f5ede1;
   --dark: #a7a7a7;
   --dark: #8a8a8a;
-  --darker: #303030;
+  --darker:#c2b757;
   --sans-serif: 'Roboto', sans-serif;
 }
 
@@ -230,6 +230,30 @@ ol li span:first-child:before {
   width: 20px;
 }
 
+ol li span i{
+  color: white;
+}
+
+
+aside{
+  display: inline-block;
+  width: 21%;
+  color: white;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 15vh;
+}
+
+.aside-container{
+  display: inline-block;
+  
+}
+
+.aside-container h3{
+  display: inline-block;
+  text-align: left;
+  margin-top: 1vh;
+}
 
 
 /* .actions {
