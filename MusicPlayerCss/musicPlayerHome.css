@@ -1,4 +1,6 @@
+/* import for styling css page */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+/* veriable defined in root */
 :root {
   --color: #faa700;
   --color-light: #f5ede1;
@@ -10,7 +12,7 @@
 
 body {
   font-family: var(--sans-serif);
-  background: #eeeeee;
+  background: #cfacac;
 }
 
 body {
@@ -100,7 +102,7 @@ main{
   width: 30%;
   margin-left: 1%;
 }
-
+/* aside setup for music collection */
 aside{
   display: inline-block;
   width: 21%;

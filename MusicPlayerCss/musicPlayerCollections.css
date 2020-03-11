@@ -16,7 +16,7 @@ body {
 body {
   background: #0a1a24;
 }
-
+/* setup for main  */
 main{
   display: inline-block;
   width:70%
@@ -26,11 +26,11 @@ aside{
   display: inline-block;
   width: 21%;
 }
-
+/* background image setup for collection */
 .background {
   margin-top: 18vh;
   margin-left: 14vh;
-  width: 70%;
+  width: 820px;
   height: 56.25vw;
   background: url(https://cdn.klove.com/images/music/artists/bios/SkilletUnleashed.KLArtist.jpg) center/cover;
   box-shadow: inset 0px -17vw 20vw 1vw #0a1a24;
@@ -55,6 +55,7 @@ aside{
 }
 
 .background + section .album-tracks {
+  widows: 780px;
   background: rgba(255, 255, 255, 0.1);
   border: none;
 }
@@ -87,6 +88,7 @@ section .album-art img {
   margin-top: -80px;
   box-shadow: 0 5px 60px -3px rgba(0, 0, 0, 0.18);
 }
+/* action performed on clickin play */
 section .play {
   display: -webkit-box;
   display: flex;
@@ -188,7 +190,7 @@ section .album-tracks {
     padding: 16px;
   }
 }
-
+/* list display setup for the song */
 ol {
   list-style-type: none;
   padding: 20px 36px;
@@ -254,17 +256,3 @@ aside{
   text-align: left;
   margin-top: 1vh;
 }
-
-
-/* .actions {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: initial;
-  -webkit-box-pack: initial;
-          justify-content: initial;
-  -webkit-box-align: initial;
-          align-items: initial;
-  align-content: initial;
-  -webkit-box-flex: 1;
-          flex: 1 1 100%;
-} */
